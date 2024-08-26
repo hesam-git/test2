@@ -9,6 +9,7 @@ class Database:
                             name text, family text, address text, phone text)
                             """)
         self.con.commit()
+print('********************')        
 
 
 db1 = Database('d:/mydata8.db')        
